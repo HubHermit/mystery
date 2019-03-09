@@ -49,9 +49,9 @@ void mystery2(auto& Data)
 			temp = Data [i];
 			Data[i] = Data[minIndex];
 			Data[minIndex] = temp;
-			print(Data);
+		
 		}//endif
-	
+	print(Data);
 	}//end for
 
 
